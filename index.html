@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SamAkins Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/ab38ec9a2d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+            <i class="fa-solid fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Digital Marketer and Video Editor</p>
+          <h1>
+            I'm <span>Akinde Oluwatosin</span><br />
+            Samuel from Nigeria
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ---------about---------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+           
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              I'm Akinde Oluwatosin Samuel, a digital marketer and a video
+              editor with several years of experience in digital marketing,
+              Video editing, twitch and YouTube. I'm Passionate about helping
+              streamers achieve online success. I possess a wide range skills
+              including e-mail marketing e-commerce marketing, Social media
+              marketing, Paid advertising, (SEO?SEM) and more. I leverage
+              cutting-edge strategies to boost your channel's visibility and
+              drive significant growth. My expertise allows me to develop and
+              implement effective marketing campaigns that delivers tangible
+              results.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab">
+              <ul>
+                <li>
+                  <span>Digital Marketing</span><br />Social Media Marketing
+                </li>
+                <li><span>Video Editing</span><br />Gameplay Edit</li>
+                <li><span>Web development</span><br />Shopify</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Current</span><br />Digital marketing at
+                  Faitheroic Generation
+                </li>
+                <li>
+                  <span> 2023 - Current</span><br />Video editing at Faitheroic
+                  Generation
+                </li>
+                <li>
+                  <span>2023 - Current</span><br />Shopify at Faitheroic
+                  Generation
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Introduction to Front-end
+                  Development(Coursera)
+                </li>
+                <li>
+                  <span>2023</span><br />Introduction to Andriod Mobile App
+                  Development(Coursera)
+                </li>
+                <li><span>2023</span><br />Version Control(Coursera)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------Services---------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-lightbulb"></i>
+            <h2>Digital Marketing</h2>
+            <p>
+              As a results-driven digital marketer, I specialize in crafting and
+              implementing effective strategies to enhance online presence and
+              drive measurable growth. I leverage a deep understanding of
+              various digital channels, including SEO, SEM, social media
+              marketing, email marketing, and content creation, to reach target
+              audiences and achieve business objectives. My approach is
+              data-driven, continuously analyzing performance to optimize
+              campaigns and maximize ROI. I am passionate about helping
+              businesses thrive in the digital landscape by developing and
+              executing innovative marketing solutions that deliver tangible
+              results.
+            </p>
+            <Learn href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-video"></i>
+            <h2>Video Editing</h2>
+            <p>
+              As a passionate video editor, I thrive on transforming raw footage
+              into compelling visual narratives. I meticulously craft each
+              frame, ensuring seamless transitions, impactful pacing, and a
+              cohesive flow that captivates audiences. With a keen eye for
+              detail and a deep understanding of storytelling principles, I aim
+              to elevate every project, bringing your vision to life with
+              creativity and precision. I'm adept at Capcut and Adobe premiere
+              pro and dedicated to delivering high-quality, engaging video
+              content that leaves a lasting impression
+            </p>
+            <Learn href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-store"></i>
+            <h2>Store Development</h2>
+            <p>
+              As a skilled Shopify store developer, I specialize in creating
+              robust and user-friendly online stores that drive sales and
+              enhance the customer experience. I am adept at customizing Shopify
+              themes, implementing advanced functionalities through apps and
+              custom code, and ensuring seamless integration with essential
+              e-commerce tools. My focus is on building aesthetically pleasing
+              and highly functional stores that are optimized for conversions
+              and provide a smooth and intuitive shopping journey for your
+              customers. I am committed to delivering tailored Shopify solutions
+              that meet your specific business needs and help you achieve your
+              online sales goals.
+            </p>
+            <Learn href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- ---------Portfolio---------- -->
+      <div id="porfolio">
+        <div class="container">
+           <h1 class="sub-title">My Work</h1>
+           <div class="work-list">
+            <div class="work">
+              <img src="IMG_6624.JPG">
+              <div class="layer">
+                <h3>Digital marketing</h3>
+                <p>I leverage a deep understanding of
+              various digital channels, including SEO, SEM, social media
+              marketing, email marketing, and content creation, to reach target
+              audiences and achieve business objectives.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i> </a>
+              </div>
+            </div>
+              <div class="work">
+              <img src="IMG_6625.JPG">
+               <div class="layer">
+                <h3>Video Editing</h3>
+                <p>I craft compelling video content through expert editing techniques</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i> </a>
+              </div>
+            </div>
+              <div class="work">
+              <img src="IMG_6627.JPG">
+               <div class="layer">
+                <h3>Store Development</h3>
+                <p>I am committed to delivering tailored Shopify solutions
+              that meet your specific business needs and help you achieve your
+              online sales goals.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i> </a>
+              </div>
+            </div>
+           </div>
+           <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+       <!-- ---------contact---------- -->
+        <div id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> Samakins852@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 07048839263</p>
+                <div class="social-icons">
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-twitter-square"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Twitch Marketing Strategy.pdf" download class="btn btn2">Download Marketing plan</a>
+              </div>
+              <div class="contact-right">
+                <form>
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <p>Copyright © Akinde Oluwatosin.<i class="fa-solid fa-heart"></i></p>
+          </div>
+        </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tablink of tabcontents) {
+          tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemeu.style.right = "0"
+      }
+       function closemenu(){
+        sidemeu.style.right = "200px"
+      }
+    </script>
+  </body>
+</html>
